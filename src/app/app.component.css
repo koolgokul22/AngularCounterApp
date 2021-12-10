@@ -1,0 +1,40 @@
+/* app component container style */
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(147, 166, 184);
+    margin-top: 30px;
+  }
+  
+  /* button style */
+  button {
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+    padding: 5px 25px;
+    margin: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #ff00d4;
+  }
+
+  button:hover {
+    background-color: #f57ddf;
+    box-shadow: 5px 5px black;
+  }
+
+ h1{
+   font-size: 5rem;
+   text-shadow: 5px 5px black;
+ }
+
+ h2{
+  font-size: 3rem;
+  text-shadow: 5px 5px black;
+ }
